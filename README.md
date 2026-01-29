@@ -1,6 +1,6 @@
-# Fraud Detection (Imbalanced) — ML baselines + selección por costo
+# Fraud Detection — ML baselines + selección por costo
 
-Este repo entrena y compara modelos clásicos de fraud detection sobre el dataset Credit Card Fraud (2013), que es altamente desbalanceado (fraude ≈ 0.17%). El foco no es solo tener buen AUC, sino definir una política operativa razonable y qué casos alertar bajo un criterio de costo.
+Este repo entrena y compara modelos clásicos de fraud detection sobre el dataset Credit Card Fraud de https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud, que es altamente desbalanceado (fraude ≈ 0.17%). El foco no es solo tener buen AUC, sino definir una política operativa razonable y qué casos alertar bajo un criterio de costo.
 
 La implementación está pensada para ser reproducible:
 - splits fijos (train set + test + set de validacion)
@@ -143,7 +143,7 @@ models/best_model_rank.joblib (por ranking)
 
 models/report.json (métricas)
 
-### 3) Generar gráficos para el README
+### 3) Generar gráficos
 python src/make_plots.py
 Outputs:
 
