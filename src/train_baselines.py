@@ -466,7 +466,7 @@ def main():
     }
 
     print("\n" + "#"*80)
-    print("MEJOR MODELO (según ranking: mejor PR-AUC en CV + threshold por costo en validación)")
+    print("MEJOR MODELO según ranking: mejor PR-AUC en CV + umbral por costo en validación")
     print("#"*80)
     print("Best:", best_rank_name)
     print("Threshold (from VAL):", best_rank_threshold)
