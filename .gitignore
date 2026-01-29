@@ -1,0 +1,16 @@
+# data
+data/creditcard.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# models (si querés NO subir los binarios)
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db

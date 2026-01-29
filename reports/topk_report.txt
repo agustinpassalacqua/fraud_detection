@@ -1,0 +1,12 @@
+Top-K - TEST - winner(min cost): linear_svm_like_sgd
+Total fraud amount in split: 11963.88
+K= 100 | recall@k=0.7959 | precision@k=0.7800 | fraud_amount_captured=10767.98
+K= 500 | recall@k=0.8673 | precision@k=0.1700 | fraud_amount_captured=10774.66
+K=1000 | recall@k=0.8878 | precision@k=0.0870 | fraud_amount_captured=10779.18
+
+Top-K - TEST - winner(best rank): hist_gradient_boosting
+Total fraud amount in split: 11963.88
+K= 100 | recall@k=0.7959 | precision@k=0.7800 | fraud_amount_captured=10449.28
+K= 500 | recall@k=0.8673 | precision@k=0.1700 | fraud_amount_captured=10754.99
+K=1000 | recall@k=0.8878 | precision@k=0.0870 | fraud_amount_captured=10795.89
+
